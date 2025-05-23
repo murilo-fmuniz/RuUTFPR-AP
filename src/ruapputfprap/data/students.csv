@@ -1,0 +1,26 @@
+RA,NomeCompleto,SaldoRU,PeriodoCurso,Sexo,Curso,StatusMatricula,Email
+2478498,Murilo Fontana Muniz,28.50,5º Período,Masculino,Engenharia de Software,Ativo,murilo.muniz@email.com
+1234567,Ana Clara Silva,15.75,3º Período,Feminino,Design Digital,Ativo,ana.silva@email.com
+9876543,Carlos Eduardo Pereira,5.00,7º Período,Masculino,Engenharia Mecânica,Inativo,carlos.pereira@email.com
+5566778,Beatriz Oliveira Almeida,35.20,2º Período,Feminino,Arquitetura e Urbanismo,Ativo,beatriz.almeida@email.com
+1122334,Lucas Gabriel Costa,0.00,1º Período,Masculino,Sistemas de Informação,Trancado,lucas.costa@email.com
+3012874,Sofia Martins Rodrigues,42.10,4º Período,Feminino,Ciência da Computação,Ativo,sofia.rodrigues@email.com
+4033981,Pedro Henrique Lima,12.00,6º Período,Masculino,Direito,Ativo,pedro.lima@email.com
+5078452,Julia Santos Souza,22.30,2º Período,Feminino,Psicologia,Ativo,julia.souza@email.com
+6011239,Gabriel Alves Ferreira,5.50,8º Período,Masculino,Administração,Ativo,gabriel.ferreira@email.com
+7088541,Mariana Costa Araujo,19.80,1º Período,Feminino,Medicina,Ativo,mariana.araujo@email.com
+8023654,Rafael Oliveira Santos,33.15,5º Período,Masculino,Engenharia Civil,Ativo,rafael.santos@email.com
+9054789,Laura Pereira Mendes,8.90,3º Período,Feminino,Pedagogia,Inativo,laura.mendes@email.com
+2100345,Matheus Carvalho Gomes,50.00,Formado,Masculino,Engenharia Elétrica,Formado,matheus.gomes@email.com
+3144567,Isabela Rocha Fernandes,2.25,4º Período,Feminino,Letras,Ativo,isabela.fernandes@email.com
+4178901,Bruno Nascimento Ribeiro,27.60,6º Período,Masculino,História,Trancado,bruno.ribeiro@email.com
+5199002,Gabriela Almeida Monteiro,11.40,2º Período,Feminino,Geografia,Ativo,gabriela.monteiro@email.com
+6133458,Felipe Santos Lima,4.10,7º Período,Masculino,Física,Ativo,felipe.lima@email.com
+7167890,Amanda Pereira Alves,45.00,8º Período,Feminino,Química,Ativo,amanda.alves@email.com
+8121213,Daniel Costa Rodrigues,0.00,1º Período,Masculino,Matemática,Jubilado,daniel.rodrigues@email.com
+9155667,Carolina Oliveira Souza,30.00,Concluindo,Feminino,Ciências Biológicas,Ativo,carolina.souza@email.com
+2200112,Thiago Martins Ferreira,18.70,5º Período,Masculino,Educação Física,Ativo,thiago.ferreira@email.com
+3234569,Manuela Lima Araujo,9.65,3º Período,Feminino,Enfermagem,Trancado,manuela.araujo@email.com
+4267891,Vinicius Alves Gomes,3.00,6º Período,Masculino,Farmácia,Ativo,vinicius.gomes@email.com
+5288903,Fernanda Rocha Santos,55.25,Formada,Feminino,Engenharia de Produção,Formado,fernanda.santos@email.com
+6212347,André Pereira Costa,21.00,4º Período,Masculino,Análise e Desenvolvimento de Sistemas,Ativo,andre.costa@email.com

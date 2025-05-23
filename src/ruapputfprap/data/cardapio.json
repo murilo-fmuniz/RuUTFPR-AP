@@ -1,0 +1,25 @@
+{
+  "segunda": {
+    "almoco": "Arroz, feijão, bife acebolado, salada de alface e tomate",
+    "janta": "Macarrão ao molho branco, frango grelhado, legumes refogados"
+  },
+  "terca": {
+    "almoco": "Arroz, feijão, frango assado, purê de batata, salada de repolho",
+    "janta": "Sopa de legumes, pão integral, suco natural"
+  },
+  "quarta": {
+    "almoco": "Arroz, feijão, peixe empanado, batata cozida, salada de cenoura",
+    "janta": "Escondidinho de carne moída, arroz integral, salada verde"
+  },
+  "quinta": {
+    "almoco": "Arroz, feijão, carne de panela, farofa, salada de beterraba",
+    "janta": "Lasanha de frango, arroz branco, salada mista"
+  },
+  "sexta": {
+    "almoco": "Arroz, feijão, filé de frango grelhado, legumes no vapor, salada de rúcula",
+    "janta": "Pizza caseira, suco de laranja, salada de frutas"
+  },
+  "sabado": {
+    "almoco": "Feijoada, arroz branco, couve refogada, laranja, farofa"
+  }
+}

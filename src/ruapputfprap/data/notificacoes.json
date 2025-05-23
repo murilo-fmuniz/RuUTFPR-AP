@@ -1,0 +1,204 @@
+{
+    "notificacoes": [
+        {
+            "data": "2025-05-22T08:00:00",
+            "mensagem": "Bom dia! Hoje tem palestra sobre inovação no auditório central às 14h."
+        },
+        {
+            "data": "2025-05-23T08:00:00",
+            "mensagem": "Bom dia! Lembrete: Prazo para entrega do TCC 1 termina hoje às 23h59."
+        },
+        {
+            "data": "2025-05-24T08:00:00",
+            "mensagem": "Bom dia! Biblioteca aberta das 9h às 13h hoje (sábado letivo)."
+        },
+        {
+            "data": "2025-05-26T08:00:00",
+            "mensagem": "Bom dia! Semana de provas começa hoje. Confira seu cronograma no portal."
+        },
+        {
+            "data": "2025-05-27T08:00:00",
+            "mensagem": "Bom dia! Workshop de carreiras hoje às 16h no bloco D."
+        },
+        {
+            "data": "2025-05-28T08:00:00",
+            "mensagem": "Bom dia! Reunião de estágios obrigatórios às 11h no auditório 2."
+        },
+        {
+            "data": "2025-05-29T08:00:00",
+            "mensagem": "Bom dia! Último dia para inscrição no programa de intercâmbio."
+        },
+        {
+            "data": "2025-05-30T08:00:00",
+            "mensagem": "Bom dia! Evento cultural hoje às 19h com food trucks no pátio central."
+        },
+        {
+            "data": "2025-06-02T08:00:00",
+            "mensagem": "Bom dia! Início das inscrições para monitorias 2025/2 no portal acadêmico."
+        },
+        {
+            "data": "2025-06-03T08:00:00",
+            "mensagem": "Bom dia! Manutenção programada no sistema acadêmico das 20h às 22h."
+        },
+        {
+            "data": "2025-06-04T08:00:00",
+            "mensagem": "Bom dia! Dia do doador de sangue - hemocentro móvel no campus até 17h."
+        },
+        {
+            "data": "2025-06-05T08:00:00",
+            "mensagem": "Bom dia! Palestra com egressos sobre mercado de trabalho às 15h30."
+        },
+        {
+            "data": "2025-06-06T08:00:00",
+            "mensagem": "Bom dia! Feriado municipal na segunda-feira - aulas normais hoje."
+        },
+        {
+            "data": "2025-05-22T20:50:52.689894",
+            "mensagem": "Cardápio do RU atualizado: Opção vegana disponível amanhã."
+        },
+        {
+            "data": "2025-05-22T20:55:04.516816",
+            "mensagem": "Lembrete: Cardápio especial dia 03/06 - Semana da nutrição."
+        },
+        {
+            "data": "2025-05-22T20:55:18.446850",
+            "mensagem": "Atenção: Cardápio de 29/05 terá ajustes por falta de insumos."
+        },
+        {
+            "data": "2025-05-22T21:00:52.870874",
+            "mensagem": "Usuário visualizou o cardápio de 28/05/2025."
+        },
+        {
+            "data": "2025-05-22T21:01:36.338633",
+            "mensagem": "Usuário visualizou o cardápio de 01/06/2025."
+        },
+        {
+            "data": "2025-05-22T21:01:48.677479",
+            "mensagem": "Usuário visualizou o cardápio de 26/05/2025."
+        },
+        {
+            "data": "2025-05-22T21:02:13.962387",
+            "mensagem": "Usuário visualizou o cardápio de 05/06/2025."
+        },
+        {
+            "data": "2025-05-22T21:06:13.238546",
+            "mensagem": "Usuário visualizou o cardápio de 30/05/2025."
+        },
+        {
+            "data": "2025-05-22T21:08:36.323587",
+            "mensagem": "Usuário visualizou o cardápio de 30/05/2025."
+        },
+        {
+            "data": "2025-05-22T21:17:27.815591",
+            "mensagem": "Usuário visualizou o cardápio de 30/05/2025."
+        },
+        {
+            "data": "2025-05-22T21:17:45.202535",
+            "mensagem": "Usuário visualizou o cardápio de 30/05/2025."
+        },
+        {
+            "data": "2025-05-22T21:17:51.389106",
+            "mensagem": "Usuário visualizou o cardápio de 30/05/2025."
+        },
+        {
+            "data": "2025-05-22T22:40:43.946990",
+            "mensagem": "Usuário visualizou o cardápio de 27/05/2025."
+        },
+        {
+            "data": "2025-05-23T01:32:54.953622",
+            "mensagem": "Usuário visualizou o cardápio de 01/06/2025."
+        },
+        {
+            "data": "2025-05-23T01:33:42.439394",
+            "mensagem": "Simulação de leitura de RA: 5365425"
+        },
+        {
+            "data": "2025-05-23T01:35:51.576166",
+            "mensagem": "Usuário visualizou o cardápio de 27/05/2025."
+        },
+        {
+            "data": "2025-05-23T01:35:58.671471",
+            "mensagem": "Simulação de leitura de RA: 9611543"
+        },
+        {
+            "data": "2025-05-23T01:40:39.398728",
+            "mensagem": "Simulação de leitura de RA: 4077580"
+        },
+        {
+            "data": "2025-05-23T01:52:04.644718",
+            "mensagem": "Usuário visualizou o cardápio de 23/05/2025."
+        },
+        {
+            "data": "2025-05-23T02:06:02.587984",
+            "mensagem": "RA 2478498 (Murilo Fontana Muniz) verificado."
+        },
+        {
+            "data": "2025-05-23T02:06:04.548111",
+            "mensagem": "RA 2478498 (Murilo Fontana Muniz) verificado."
+        },
+        {
+            "data": "2025-05-23T02:06:08.529913",
+            "mensagem": "RA 1234567 (Ana Clara Silva) verificado."
+        },
+        {
+            "data": "2025-05-23T02:06:09.927923",
+            "mensagem": "RA 9876543 (Carlos Eduardo Pereira) verificado."
+        },
+        {
+            "data": "2025-05-23T02:06:10.806339",
+            "mensagem": "RA 5566778 (Beatriz Oliveira Almeida) verificado."
+        },
+        {
+            "data": "2025-05-23T02:06:11.617843",
+            "mensagem": "RA 1122334 (Lucas Gabriel Costa) verificado."
+        },
+        {
+            "data": "2025-05-23T02:06:12.450399",
+            "mensagem": "RA 2478498 (Murilo Fontana Muniz) verificado."
+        },
+        {
+            "data": "2025-05-23T02:06:13.285206",
+            "mensagem": "RA 1234567 (Ana Clara Silva) verificado."
+        },
+        {
+            "data": "2025-05-23T02:06:14.150702",
+            "mensagem": "RA 9876543 (Carlos Eduardo Pereira) verificado."
+        },
+        {
+            "data": "2025-05-23T02:06:14.972968",
+            "mensagem": "RA 5566778 (Beatriz Oliveira Almeida) verificado."
+        },
+        {
+            "data": "2025-05-23T02:06:16.099741",
+            "mensagem": "RA 1122334 (Lucas Gabriel Costa) verificado."
+        },
+        {
+            "data": "2025-05-23T02:06:17.442600",
+            "mensagem": "RA 2478498 (Murilo Fontana Muniz) verificado."
+        },
+        {
+            "data": "2025-05-23T02:06:24.194779",
+            "mensagem": "RA 2478498 (Murilo Fontana Muniz) verificado."
+        },
+        {
+            "data": "2025-05-23T02:06:24.713030",
+            "mensagem": "RA 2478498 (Murilo Fontana Muniz) verificado."
+        },
+        {
+            "data": "2025-05-23T02:06:27.384047",
+            "mensagem": "RA 1234567 (Ana Clara Silva) verificado."
+        },
+        {
+            "data": "2025-05-23T02:06:30.255523",
+            "mensagem": "RA 1234567 (Ana Clara Silva) verificado."
+        },
+        {
+            "data": "2025-05-23T02:06:31.281490",
+            "mensagem": "RA 9876543 (Carlos Eduardo Pereira) verificado."
+        },
+        {
+            "data": "2025-05-23T02:06:36.260128",
+            "mensagem": "RA 5566778 (Beatriz Oliveira Almeida) verificado."
+        }
+    ]
+}

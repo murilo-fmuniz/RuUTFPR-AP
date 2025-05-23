@@ -1,0 +1,160 @@
+# This project was generated with 0.3.23 using template: https://github.com/beeware/briefcase-template @ v0.3.23
+[tool.briefcase]
+project_name = "RUAppUTFPR-Ap"
+bundle = "com.example" # Considere mudar para seu domínio reverso ex: "br.edu.utfpr.meuapp"
+version = "0.0.1"
+url = "https://example.com/ruapputfprap" # Atualize com a URL real do seu projeto, se houver
+license.file = "LICENSE"
+author = "Murilo Fontana Muniz"
+author_email = "muri.fmuniz@gmail.com"
+
+[tool.briefcase.app.ruapputfprap]
+formal_name = "ruapputfprap"
+bundle = "br.edu.utfpr" # Está correto, como você indicou
+version = "0.0.1" # Você pode querer sincronizar com a versão do [tool.briefcase]
+description = "Aplicativo de cardápio do RU da UTFPR com notificações."
+sources = ["src/ruapputfprap"]
+icon = "src/ruapputfprap/resources/ruapputfprap" # Verifique se o caminho e nome do ícone estão corretos
+
+# Dependências Python principais do aplicativo
+requires = [
+    "Pillow>=9.0.0",
+    "qrcode[pil]>=7.0.0"
+]
+
+# Fontes de teste e suas dependências
+test_sources = [
+    "tests",
+]
+test_requires = [
+    "pytest",
+]
+
+# --- Configurações específicas por plataforma ---
+
+[tool.briefcase.app.ruapputfprap.macOS]
+universal_build = true
+requires = [
+    "toga-cocoa~=0.5.0", # Use a versão mais recente compatível com sua versão do Toga/Briefcase
+    "std-nslog~=1.0.3",
+    "Pillow>=9.0.0",
+    "qrcode[pil]>=7.0.0"
+]
+
+[tool.briefcase.app.ruapputfprap.linux]
+requires = [
+    "toga-gtk~=0.5.0", # Use a versão mais recente compatível
+    # PyGObject < 3.52.1 (como no seu original, devido à compatibilidade com Debian/Ubuntu)
+    "pygobject < 3.52.1",
+    "Pillow>=9.0.0",
+    "qrcode[pil]>=7.0.0"
+]
+
+# Mantendo as dependências de sistema para Linux como estavam no seu original:
+[tool.briefcase.app.ruapputfprap.linux.system.debian]
+system_requires = [
+    "libcairo2-dev",
+    "libgirepository1.0-dev",
+]
+system_runtime_requires = [
+    "gir1.2-gtk-3.0",
+    "libgirepository-1.0-1",
+    "libcanberra-gtk3-module",
+    # "gir1.2-webkit2-4.1", # Descomente se precisar de WebView
+]
+
+[tool.briefcase.app.ruapputfprap.linux.system.rhel]
+system_requires = [
+    "cairo-gobject-devel",
+    "gobject-introspection-devel",
+]
+system_runtime_requires = [
+    "gobject-introspection",
+    "gtk3",
+    "libcanberra-gtk3",
+    # "webkit2gtk3", # Descomente se precisar de WebView
+]
+
+[tool.briefcase.app.ruapputfprap.linux.system.suse]
+system_requires = [
+    "cairo-devel",
+    "gobject-introspection-devel",
+]
+system_runtime_requires = [
+    "gtk3",
+    "gobject-introspection", "typelib(Gtk) = 3.0",
+    "libcanberra-gtk3-module",
+    # "libwebkit2gtk3", "typelib(WebKit2)", # Descomente se precisar de WebView
+]
+
+[tool.briefcase.app.ruapputfprap.linux.system.arch]
+system_requires = [
+    "cairo",
+    "gobject-introspection",
+    "gtk3",
+    "libcanberra",
+    # "webkit2gtk", # Descomente se precisar de WebView
+]
+system_runtime_requires = [
+    "gtk3",
+    "gobject-introspection-runtime",
+    "libcanberra",
+    # "webkit2gtk", # Descomente se precisar de WebView
+]
+
+[tool.briefcase.app.ruapputfprap.linux.appimage]
+manylinux = "manylinux_2_28" # Ou a versão mais recente apropriada
+system_requires = [
+    "cairo-gobject-devel",
+    "gobject-introspection-devel",
+    "gtk3-devel",
+    "libcanberra-gtk3",
+    "PackageKit-gtk3-module",
+    "gvfs-client",
+]
+linuxdeploy_plugins = [
+    "DEPLOY_GTK_VERSION=3 gtk",
+]
+
+[tool.briefcase.app.ruapputfprap.linux.flatpak]
+flatpak_runtime = "org.gnome.Platform"
+flatpak_runtime_version = "48" # Verifique a última versão estável
+flatpak_sdk = "org.gnome.Sdk"
+
+[tool.briefcase.app.ruapputfprap.windows]
+requires = [
+    "toga-winforms~=0.5.0", # Use a versão mais recente compatível
+    "Pillow>=9.0.0",
+    "qrcode[pil]>=7.0.0"
+]
+
+# --- Configurações para Mobile ---
+[tool.briefcase.app.ruapputfprap.iOS]
+requires = [
+    "toga-iOS~=0.5.0", # Use a versão mais recente compatível
+    "std-nslog~=1.0.3",
+    "Pillow>=9.0.0",
+    "qrcode[pil]>=7.0.0"
+]
+
+[tool.briefcase.app.ruapputfprap.android]
+requires = [
+    "toga-android~=0.5.0", # Use a versão mais recente compatível
+    "Pillow>=9.0.0",
+    "qrcode[pil]>=7.0.0"
+]
+base_theme = "Theme.MaterialComponents.Light.DarkActionBar"
+build_gradle_dependencies = [
+    "com.google.android.material:material:1.12.0", # Verifique a última versão estável
+    # "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0",
+    # "org.osmdroid:osmdroid-android:6.1.20",
+]
+
+# --- Configurações para Web ---
+[tool.briefcase.app.ruapputfprap.web]
+requires = [
+    "toga-web~=0.5.0", # Use a versão mais recente compatível
+    "Pillow>=9.0.0",   # Pillow na web pode ter limitações ou não ser ideal
+    "qrcode[pil]>=7.0.0" # qrcode pode funcionar se puder desenhar em canvas ou gerar SVG
+]
+style_framework = "Shoelace v2.3" # Verifique a última versão estável ou outro framework
